@@ -1,0 +1,72 @@
+{
+  "victim": "Rene Falkenberg",
+  "inside_man": "Milan Petrov",
+  "mastermind": "Regina Holthaus",
+  "codename_mastermind": "SPHINX",
+  "codename_inside": "LAPWING",
+  "badge_inside": "TC-KITCHEN-2207",
+  "drop": "old Fish Warehouse Ramp 3",
+  "elim_a": {
+    "name": "Tom Kruger",
+    "badge": "2189",
+    "terminal": "kit-kitchen-03"
+  },
+  "elim_b": {
+    "name": "George Jost",
+    "badge": "2311"
+  },
+  "witnesses": [
+    21045,
+    33712,
+    29864
+  ],
+  "hashes": {
+    "victim_sha256": [
+      "7c3b9d584cf7a0f721419764f66151300f8a0be42959bf25fdbeeb61893c1618",
+      "7c3b9d584cf7a0f721419764f66151300f8a0be42959bf25fdbeeb61893c1618"
+    ],
+    "inside_sha256": [
+      "8411c139ecb3e617b470c82a6281181ee834b7c2c0a0e8f1f94a2f6a102f9567"
+    ],
+    "code_sha256": [
+      "f8c2c556e154d27fe5df5fd77599abfaad1a6ac572667ceb710351c3caf26982"
+    ],
+    "master_sha256": [
+      "613bfcfdcb27f5552db77177413db3deba8136c6c541ea7b586324c5028d4084",
+      "c30452fd2aa03fae0fed6d5af6b0c1be232119e7121cea72ca5a6907669ab63e"
+    ],
+    "place_sha256": [
+      "38d68a37b9f1066b6f4a9ec7eafa6d0119551cfd0ee53d10c6fc4919ab3e1596",
+      "a97800a912abba0368c32070bbbc1816cf4238aef984d86feb13d7a71eff9414",
+      "4d7944b54cc5f127b15a207ab8ee441c871ec5914bfd9aba2df029476ab5b3f6",
+      "569c57f51fe0f4736067039ad0f056b2f0f1d4312c64e1c7c92e50d83e1700d1"
+    ],
+    "master_md5": "cc3f04863e9d5736e78492b8029cf8b0"
+  },
+  "counts": {
+    "people": 6598,
+    "library_club_size": 50,
+    "interviews": 503,
+    "streets": 36
+  },
+  "git": {
+    "C_TEAM": "39d0b708c8eaed7f3fb65c7c5c3eaeb5bae3706b",
+    "C_SHIPMENT": "e261fd3daf6c6c63fa430757f715a4b3b9076624",
+    "DANGLING": "0aa1e3f698b990908bb6b032641780ac8c8ffceb"
+  },
+  "verify": {
+    "coinnote_rot13_sha256": "75bfb5d616d9144eb48f22d0160de112cacd93ba983088d3c2371eb5446ff0b2",
+    "acrostic": "SPHINX",
+    "fingerprint_target_md5": "c4a0e97e2831e49b43299f1d61e66144",
+    "history_user_elim": "kit-kitchen-03",
+    "history_logout": "21:24:40",
+    "inside_entry": "2026-05-09 20:31:00",
+    "inside_exit": "2026-05-09 21:33:00",
+    "elim_b_last_exit": "2026-05-09 19:55:00",
+    "shipment88_contains": "FISH WAREHOUSE",
+    "team_txt_contains": "TC-KITCHEN-2207",
+    "dangling_contains": "LAPWING",
+    "board_contains": "Holthaus,Regina,RH",
+    "mail_contains": "fish warehouse"
+  }
+}
