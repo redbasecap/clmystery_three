@@ -1,0 +1,6 @@
+HINT 8
+=======
+The kitchen email is AES-encrypted:
+    openssl enc -d -aes-256-cbc -a -pbkdf2 -iter 10000 \
+      -in case/encrypted/mastermind.eml.aes -pass pass:PASSWORD
+PASSWORD = the codename from hint 7 (UPPERCASE).

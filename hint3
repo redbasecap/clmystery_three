@@ -1,0 +1,7 @@
+HINT 3
+=======
+Who could hand over the tea? Two files belong together:
+    case/logs/shift-plan.csv        (who was EVENING/KITCHEN?)
+    case/logs/access-log.log        (who entered/left, when?)
+Resolve the badge numbers with:
+    case/logs/badge-register.csv

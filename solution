@@ -1,0 +1,19 @@
+SOLUTION - HOW TO CLOSE THE CASE
+================================
+
+When you are sure you know the full name of the mastermind, verify it
+like this (macOS):
+
+    echo -n 'Firstname Lastname' | md5
+    grep -if '<YOUR-HASH>' encoded
+
+On Linux it is 'md5sum' instead of 'md5'. If grep finds the hash in the
+'encoded' file: congratulations, detective.
+
+Afterwards a sealed EPILOGUE waits for you (you know the password - six
+letters, a mythical creature):
+
+    openssl enc -d -aes-256-cbc -a -pbkdf2 -iter 10000 \
+      -in case/encrypted/epilogue.aes -pass pass:PASSWORD
+
+And './checker.sh' will grade your final report.

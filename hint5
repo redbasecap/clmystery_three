@@ -1,0 +1,6 @@
+HINT 5
+=======
+That remaining person is your inside man. His belongings were packed:
+    tar -tzf case/evidence/effects-inside-man.tar.gz
+    tar -xzf case/evidence/effects-inside-man.tar.gz -C /tmp/effects
+The inventory lists: one unsigned letter - and one ROT13 note.

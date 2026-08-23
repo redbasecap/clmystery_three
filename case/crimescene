@@ -1,0 +1,64 @@
+CASE FILE 48/III - THE SILENT WITNESS
+=====================================
+
+      _______________________________
+     |  S T E I N B E R G   P E N    |
+     |                               |
+     |  |=|=|=|=|=|=|=|=|=|=|=|=|=|  |
+     |  |=|  B - 1 4          |=|=|  |   CELL B-14
+     |  |=|=|=|=|=|=|=|=|=|=|=|=|=|  |
+     |         ___                   |
+     |        (   )  <- TEA CUP      |   CRIME NIGHT: MAY 9/10, 2026
+     |         \_/      BITTER ALMOND|
+     |_______________________________|
+
+INCIDENT REPORT
+---------------
+Rene FALKENBERG (49), defendant in the 'Harbor Ledger' case, was due to
+testify as key witness on Thursday. On the evening of May 9 he was found
+dead in cell B-14 - poisoned with CYANIDE in his evening tea (21:12,
+classic BITTER ALMOND smell).
+
+No break-in. The tea arrived through the regular kitchen route. For
+weeks Falkenberg had read only one book - a DONATION to the prison
+library, sticker 'MUSEUM OF BASH HISTORY'. Inside the book: an unsigned
+letter. The guards heard him reciting the FIRST LETTERS of each line,
+'like a poem'.
+
+Background (Case 47/II): Falkenberg's courier is now a protected
+prosecution witness - she cooperates. Her network, the 'Harbor Ledger',
+wants to make sure Falkenberg never testifies.
+
+Evidence
+--------
+* Personal effects from B-14 (packed as an archive):
+      case/evidence/effects-inside-man.tar.gz
+* Five unsigned letters seized from the cell:
+      case/evidence/letter-a.txt ... letter-e.txt
+* Fingerprint list from the intercepted parcel route:
+      case/logs/fingerprints.txt
+* An encrypted email from the kitchen management server:
+      case/encrypted/mastermind.eml.aes
+* The seized tour system of the shipping arm 'Harbor Ledger':
+      case/repos/harborledger-shipping   (a real Git repository!)
+* Logs of the day (shift plan, access, infirmary terminal):
+      case/logs/
+
+Witnesses (video statements, note the numbers!)
+-----------------------------------------------
+STATEMENT #21045 - Dietmar Kluge, cell neighbor:
+   smelled BITTER ALMOND on the tea; the book and his 'poem' habit.
+   Details: case/interviews/interview-21045
+
+STATEMENT #33712 - Burghard Fink, head of kitchen:
+   the tea route follows the SHIFT PLAN; books keep arriving via
+   GREENFLASH CATERING.
+   Details: case/interviews/interview-33712
+
+STATEMENT #29864 - Josefine Peters, prison librarian:
+   the letter was INSIDE the book; the deceased loved spelling out
+   the FIRST LETTERS of each line.
+   Details: case/interviews/interview-29864
+
+The TCPD needs your report: WHO brewed the tea - and WHO ordered it?
+Check your progress anytime with ./checker.sh

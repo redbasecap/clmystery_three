@@ -1,0 +1,8 @@
+HINT 6
+=======
+Which of the five letters from B-14 was smuggled? Surveillance lists
+fingerprints (MD5):
+    case/logs/fingerprints.txt
+Check every letter:
+    md5 case/evidence/letter-*.txt     (Linux: md5sum)
+Exactly ONE matches 'SHIPMENT-88-ATTACHMENT'.

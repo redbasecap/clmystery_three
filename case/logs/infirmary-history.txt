@@ -1,0 +1,20 @@
+# TERMINAL HISTORY INFIRMARY (PHARMACY) - EXCERPT MAY 9, 2026
+# Format: '# session <TIME> user:<ID>' followed by commands
+# ID to badge mapping: terminal-users.csv
+# session 2026-05-09 19:40:11 user:physician-lead
+grep -i headache dosage-forms.csv
+# logout 19:52:03
+
+# session 2026-05-09 21:02:55 user:kit-kitchen-03
+less tea-inventory.csv
+grep -i 'bitter almond' substances-reference.csv
+man curl
+# logout 21:24:40
+
+# session 2026-05-09 21:41:07 user:kit-kitchen-01
+tail -n 3 deliveries-today.log
+# logout 21:48:59
+
+# session 2026-05-09 22:10:41 user:nursing-night
+echo 'Quiet shift' >> logbook.txt
+# logout 22:15:12

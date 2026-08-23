@@ -1,0 +1,6 @@
+HINT 10
+========
+Once you have the full name of the mastermind:
+    echo -n 'FIRSTNAME LASTNAME' | md5
+    grep -if <YOUR-HASH> encoded
+How to submit your report is described in 'solution'.

@@ -1,0 +1,12 @@
+HINT 9
+=======
+Who hides behind the code 'R.H.'? Two routes:
+* Git forensics in the seized shipping repo:
+    sh case/repos/harborledger-shipping/start-investigation.sh
+    cd case/repos/harborledger-shipping
+  You want: 'team/lapwing.txt' and 'customers/shipment-88.csv' from OLD
+  commits (git show COMMIT:PATH) - plus one LOST commit
+  (git fsck --lost-found) containing a directive.
+* The public register:
+    case/company_registry/harborbank-board.csv
+  There the CODE column reveals the full name.

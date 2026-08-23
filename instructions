@@ -1,0 +1,37 @@
+INSTRUCTIONS - THE COMMAND LINE MURDERS III
+===========================================
+
+Terminal City, a few weeks later: a key witness dies in his cell -
+poisoned, precise, ordered. This time the trail leads through shift
+plans, access logs, a terminal history, a tar archive, a letter with a
+hidden code and the tour system of the 'Harbor Ledger'.
+
+RULES
+-----
+1. Use the terminal only. No text editor or GUI tools to view files
+   inside the 'case/' folder.
+2. Allowed: 'cat', 'less', 'head', 'tail', 'grep', 'find', 'sort',
+   'uniq', 'cut', 'tr', 'tar', 'openssl', 'git', 'md5' (or 'md5sum')
+   and anything listed in the CHEATSHEET.
+3. Everything you need is hidden INSIDE the case folder. You do not
+   need the internet while playing.
+4. Stuck? The files 'hint1' through 'hint10' help - but read them in
+   order and only when you are truly stuck.
+
+GETTING STARTED
+---------------
+    cat instructions       <- this file
+    cat cheatsheet.md      <- command line reference
+    ls case/
+    less case/crimescene   <- your first real lead!
+
+TOOLS
+-----
+    ./checker.sh           <- validates your progress (optional, fun)
+
+GOAL
+----
+Find out WHO brewed the tea, WHO ordered it - and under which codename
+the order came in. The closing procedure is in 'solution'.
+
+Good luck, detective.

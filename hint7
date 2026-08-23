@@ -1,0 +1,8 @@
+HINT 7
+=======
+The real letter carries a hidden code: take the FIRST CHARACTER of
+every line:
+    cut -c1 case/evidence/letter-c.txt | tr -d '\n'
+What you read is the CONTACT CODENAME of the mastermind - six letters,
+a mythical creature. Remember it! You need it as a password (hint 8)
+and as an answer for the checker.

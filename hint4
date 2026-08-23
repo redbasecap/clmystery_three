@@ -1,0 +1,9 @@
+HINT 4
+=======
+Filter kitchen staff with door access between roughly 20:30 and 21:35.
+Then eliminate:
+* One person had an ACTIVE SESSION at the infirmary terminal during
+  that time (other wing): see infirmary-history.txt and
+  terminal-users.csv.
+* One person left the door at 19:55 already and never returned.
+Exactly ONE badge number remains.
