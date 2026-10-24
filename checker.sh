@@ -6,15 +6,14 @@ PROGRESS=".checker-progress"
 SHA256() { if command -v shasum >/dev/null 2>&1; then shasum -a 256 | awk '{print $1}'; else sha256sum | awk '{print $1}'; fi; }
 
 norm() {
-  local s="${1^^}"
+  # Portable for macOS bash 3.2 (no ${var^^}): uppercase ASCII, map umlauts, keep A-Z0-9.
+  local s
+  s="$(printf '%s' "$1" | LC_ALL=C tr 'a-z' 'A-Z')"
+  s="${s//ä/AE}"; s="${s//ö/OE}"; s="${s//ü/UE}"
   s="${s//Ä/AE}"; s="${s//Ö/OE}"; s="${s//Ü/UE}"; s="${s//ß/SS}"
+  s="${s//é/E}"; s="${s//è/E}"; s="${s//ê/E}"
   s="${s//É/E}"; s="${s//È/E}"; s="${s//Ê/E}"
-  local out="" ch i
-  for (( i=0; i<${#s}; i++ )); do
-    ch="${s:i:1}"
-    [[ "$ch" =~ [A-Z0-9] ]] && out="$out$ch"
-  done
-  printf '%s' "$out"
+  printf '%s' "$s" | LC_ALL=C tr -cd 'A-Z0-9'
 }
 
 ask() {
